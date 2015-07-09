@@ -5,9 +5,9 @@ module Lita
       route(/牛丼/i, :gyudon)
 
       def gyudon(response)
-        gyudonList = %w(チーズ キムチ カレー合いかけ ネギ玉 山かけ).freeze
-        gyudonPlz = "あ、#{gyudonList.sample}牛丼中盛りツユダクで。"
-        response.reply(gyudonPlz)
+        gyudon_list = %w(チーズ キムチ カレー合いかけ ネギ玉 山かけ).freeze
+        gyudon_plz = "あ、#{gyudon_list.sample}牛丼中盛りツユダクで。"
+        response.reply(gyudon_plz)
       end
     end
 
