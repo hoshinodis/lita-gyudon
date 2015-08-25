@@ -1,12 +1,12 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-gyudon"
   spec.version       = "0.1.0"
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["hoshinodis"]
   spec.email         = ["okonomisentai@gmail.com"]
-  spec.description   = "TODO: Add a description"
-  spec.summary       = "TODO: Add a summary"
-  spec.homepage      = "TODO: Add a homepage"
-  spec.license       = "TODO: Add a license"
+  spec.description   = "gyudon"
+  spec.summary       = "gyudon"
+  spec.homepage      = "http://uhugyudon.herokuapp.com"
+  spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
   spec.files         = `git ls-files`.split($/)
